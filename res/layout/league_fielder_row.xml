@@ -1,0 +1,356 @@
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#D3D3D3" >
+
+                <TextView
+                    android:id="@+id/number_fielder_row"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="背番号"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/name_fielder_row"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="left"
+                    android:padding="3dp"
+                    android:text="選 手 名"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/batting_average_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="打率"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/games_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="試合数"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/plate_appearances_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="打席数"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/at_bats_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="打数"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/hits_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="安打"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/double_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="二塁打"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/triple_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="三塁打"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/home_runs_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="本塁打"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/total_bases_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="塁打数"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/runs_battend_in_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="打点"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/runs_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="得点"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/strikeouts_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="三振"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/bases_on_balls_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="四球"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/hit_by_pitch_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="死球"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/sacrifice_hits_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="犠打"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/sacrifice_flies_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="犠飛"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/stolen_bases_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="盗塁"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/on_base_percentage_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="出塁率"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/slugging_percentage_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="長打率"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/batting_average_with_runners_in_scoring_position_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="得点圏率"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/game_winning_runs_batted_in_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="勝利打点"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/double_play_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="併殺"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/errors_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="失策"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/ops_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="OPS"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+
+                <TextView
+                    android:id="@+id/isod_fielder_row"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="IsoD"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:id="@+id/team_fielder_row"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="球団"
+                    android:textSize="16dp"
+                    android:textStyle="" />
+
+            </LinearLayout>
+
+
+            <ListView
+                android:id="@+id/listView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </ListView>
+        </LinearLayout>

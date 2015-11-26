@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/dbUpdate"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:showAsAction="always"
+        android:title="@string/dbUpdate"/>
+    <item
+        android:id="@+id/dbInsert"
+        android:showAsAction="never"
+        android:title="@string/dbInsert"/>
+    <item
+        android:id="@+id/dbDelete"
+        android:showAsAction="never"
+        android:title="@string/dbDelete"/>
+
+</menu>

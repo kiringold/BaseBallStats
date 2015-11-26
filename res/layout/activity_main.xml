@@ -1,0 +1,394 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/npb_rogo"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:src="@drawable/npb_logo" />
+
+    <LinearLayout
+        android:id="@+id/cpwake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/central"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"  >
+
+            <ImageView
+                android:id="@+id/central_logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/central_logo" />
+
+            <LinearLayout
+                android:id="@+id/central_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/central_pitch"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/pitch_logo" />
+
+                <ImageView
+                    android:id="@+id/central_fielder"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/fielder_logo" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/giants_logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/giants_logo" />
+
+            <LinearLayout
+                android:id="@+id/giants_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/giants_pitch"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/pitch_logo" />
+
+                <ImageView
+                    android:id="@+id/giants_fielder"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/fielder_logo" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/tigers_logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/tigers_logo" />
+
+            <LinearLayout
+                android:id="@+id/tigers_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/tigers_pitch"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/pitch_logo" />
+
+                <ImageView
+                    android:id="@+id/tigers_fielder"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/fielder_logo" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/carp_logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/carp_logo" />
+
+            <LinearLayout
+                android:id="@+id/carp_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/carp_pitch"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/pitch_logo" />
+
+                <ImageView
+                    android:id="@+id/carp_fielder"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/fielder_logo" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/dragons_logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/dragons_logo" />
+
+            <LinearLayout
+                android:id="@+id/dragons_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/dragons_pitch"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/pitch_logo" />
+
+                <ImageView
+                    android:id="@+id/dragons_fielder"
+                                        android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/fielder_logo" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/baystars_logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/baystars_logo" />
+
+            <LinearLayout
+                android:id="@+id/baystars_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/baystars_pitch"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/pitch_logo" />
+
+                <ImageView
+                    android:id="@+id/baystars_fielder"
+                                        android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/fielder_logo" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/swallows_logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/swallows_logo" />
+
+            <LinearLayout
+                android:id="@+id/swallows_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/swallows_pitch"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/pitch_logo" />
+
+                <ImageView
+                    android:id="@+id/swallows_fielder"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/fielder_logo" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pacific"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/pacific_logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/pacific_logo" />
+
+              <LinearLayout
+                android:id="@+id/pacific_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/pacific_pitch"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/pitch_logo" />
+
+                <ImageView
+                    android:id="@+id/pacific_fielder"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/fielder_logo" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/hawks_logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/hawks_logo" />
+
+            <LinearLayout
+                android:id="@+id/hawks_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/hawks_pitch"
+                     android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/pitch_logo" />
+
+                <ImageView
+                    android:id="@+id/hawks_fielder"
+                  android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/fielder_logo" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/buffaloes_logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/buffaloes_logo" />
+
+            <LinearLayout
+                android:id="@+id/buffaloes_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/buffaloes_pitch"
+                  android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/pitch_logo" />
+
+                <ImageView
+                    android:id="@+id/buffaloes_fielder"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/fielder_logo" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/fighters_logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/fighters_logo" />
+
+            <LinearLayout
+                android:id="@+id/fighters_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/fighters_pitch"
+                     android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/pitch_logo" />
+
+                <ImageView
+                    android:id="@+id/fighters_fielder"
+                     android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/fielder_logo" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/marines_logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/marines_logo" />
+
+            <LinearLayout
+                android:id="@+id/marines_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/marines_pitch"
+                     android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/pitch_logo" />
+
+                <ImageView
+                    android:id="@+id/marines_fielder"
+                     android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/fielder_logo" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/lions_logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/lions_logo" />
+
+            <LinearLayout
+                android:id="@+id/lions_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/lions_pitch"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/pitch_logo" />
+
+                <ImageView
+                    android:id="@+id/lions_fielder"
+                     android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/fielder_logo" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/eagles_logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/eagles_logo" />
+
+            <LinearLayout
+                android:id="@+id/eagles_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/eagles_pitch"
+                     android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/pitch_logo" />
+
+                <ImageView
+                    android:id="@+id/eagles_fielder"
+                     android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/fielder_logo" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

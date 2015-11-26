@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BaseballStats</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_pitch_stats">PitchStatsActivity</string>
+    <string name="title_activity_fielder_stats">FielderStatsActivity</string>
+    <string name="title_activity_league_stats_pitch">LeagueStatsPitchActivity</string>
+    <string name="title_activity_league_stats_fielder">LeagueStatsFielderActivity</string>
+
+
+    <string name="dbInsert">データベース登録</string>
+    <string name="dbDelete">データベース消去</string>
+    <string name="dbUpdate">データベース更新</string>
+</resources>
